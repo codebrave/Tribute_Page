@@ -1,0 +1,214 @@
+a:hover{
+  color:rgb(168,198,0);
+}
+body{
+  margin-top:50px;
+  margin-bottom: 30px;
+  background:rgb(16,21,101);
+}
+/*This center aligns the image*/
+img.center-aln{
+  display: block;
+  margin: 0px auto;
+}
+
+/*This sets the picture with 50%
+  transparency.*/
+img.gpiano{
+  opacity:0.5;
+  /*This is for IE8 or lower*/
+  filter: alpha(opacity=50); 
+  padding-top: 15px;
+}
+/*The size for the main image.*/
+.main-image{
+  width: 1150px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*This will move the timeline text to the
+right 300 pixels.*/
+.time-text{
+ margin-left: 12%;
+ margin-right: 14%;
+ padding-right: 5%;
+ padding-left: 10%;
+ text-align: left;
+}
+.time-colon{
+  margin-left: 16%;
+  margin-right:16%
+}
+.line-i{
+  line-height: 1.4em;
+}
+
+.text-pad{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.text-padu{
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.picture-border{
+  background-color: rgb(125,221,225);
+}
+.back-color{
+  background-color: rgb(8,81,176);
+  
+}
+.text-b-color{
+  color: rgb(17,76,0);
+}
+
+.tback-color{
+  color: rgb(207,80,181);
+}
+
+.tsub-color{
+  color: rgb(207,80,181);
+  margin-bottom: 5px;
+}
+
+.text-big-color{
+  color: rgb(125,221,225);
+}
+.ty-color{
+  color:rgb(238,181,238);
+}
+
+/************************************
+This whole typography algorithm function was founded on 
+Chris Lam's youtube video and I credit this 
+author's algorithm function that would make the text bigger on 
+large screen width sizes or smaller on small screen width sizes. 
+Original code found on this link:
+https://github.com/doctorlam/responsive-font-size/blob/master/typography.css
+*************************************/
+/*
+/*This whole algorithm uses a 
+  typography technique which makes
+  text bigger or smaller depending
+  on the size of a browser or 
+  device.*/
+html {
+	font-size: 13px;
+}
+
+h1 {
+	font-size: 2.25rem;
+  text-align: center;
+}
+h2 {
+	font-size: 1.3rem;
+  margin: auto;
+}
+h3{
+  font-size: 0.95rem;
+  margin: auto
+}
+h6{
+  font-size: 1.0rem;
+  margin: auto
+}
+p{
+	font-size: 1rem;
+  line-height: 1.3em;
+  margin: auto;
+}
+
+ li {
+	font-size: 1rem;
+  line-height: 1.3em;
+  margin: auto;
+}
+
+/*This whole function basically changes
+  the font-size whenever the browser
+  size or device is greater than or 
+  equal to 500 pixels.*/
+@media screen and (min-width: 500px){
+  html{
+    font-size: 14px;
+  }
+
+}
+/*This whole function basically changes
+  the font-size whenever the browser
+  size or device is greater than or 
+  equal to 570 pixels.*/
+@media screen and (min-width: 570px){
+  html{
+    font-size: 15px;
+  }
+
+}
+/*This whole function basically changes
+  the font-size whenever the browser
+  size or device is greater than or 
+  equal to 620 pixels.*/
+@media screen and (min-width: 620px){
+  html{
+    font-size: 16px;
+  }
+}
+/*This whole function basically changes
+  the font-size whenever the browser
+  size or device is greater than or 
+  equal to 680 pixels.*/
+@media screen and (min-width: 680px){
+  html{
+    font-size: 17px;
+  }
+}
+
+/*This whole function basically changes
+  the font-size whenever the browser
+  size or device is greater than or 
+  equal to 720 pixels.*/
+@media screen and (min-width: 720px){
+  html{
+    font-size: 18px;
+  }
+}
+
+/*This whole function basically changes
+  the font-size whenever the browser
+  size or device is greater than or 
+  equal to 800 pixels.*/
+@media screen and (min-width: 800px){
+  html{
+    font-size: 19px;
+  }
+}
+
+/*This whole function basically changes
+  the font-size whenever the browser
+  size or device is greater than or 
+  equal to 860 pixels.*/
+@media screen and (min-width: 860px){
+  html{
+    font-size: 20px;
+  }
+}
+
+/*This whole function basically changes
+  the font-size whenever the browser
+  size or device is greater than or 
+  equal to 920 pixels.*/
+@media screen and (min-width: 920px){
+  html{
+    font-size: 21px;
+  }
+}
+
+/*This whole function basically changes
+  the font-size whenever the browser
+  size or device is greater than or 
+  equal to 1000 pixels.*/
+@media screen and (min-width: 1000px){
+  html{
+    font-size: 22px;  
+  }
+}
